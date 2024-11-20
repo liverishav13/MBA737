@@ -73,13 +73,13 @@ legend("topleft", c("ABC", "Nifty"),fill= c("red", "blue"))
 
 ####Symmetry 
 skewness(Data$ABC)  #Large Negative skewness in ABC returns
-skewness(Data$Nifty) #Moderate Negative skewness in ABC returns
+skewness(Data$Nifty) #Moderate Negative skewness in Nifty returns
 
 agostino.test(Data$ABC)  #Negative skewness is statistically signifcant
 agostino.test(Data$Nifty) #Negative skewness is statistically signifcant but small in magnitude
 ?kurtosis
 ##Kurtosis (fat tails and excess peakedness)
-kurtosis(Data$ABC) ##very large kurtosis indicating fat tails and excess peaked ness
+kurtosis(Data$ABC) ##very large kurtosis indicating fat tails and excess peakedness
 kurtosis(Data$Nifty) ##Moderately large kurtosis indicating fat tails and excess peaked ness
 
 
