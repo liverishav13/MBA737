@@ -13,7 +13,7 @@ library(tidyverse)
 library(Metrics)
 #################################################
 #set your working directory where you data is saved
-setwd("D:/MBA737/Assignment2")
+setwd("D:/MBA737")
 
 ##Read the data
 Data= read_excel("ABC.xlsx")
